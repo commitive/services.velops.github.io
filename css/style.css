@@ -4230,3 +4230,105 @@ img{
     min-width:180px;
     text-transform:uppercase;
 }
+
+/***
+
+***/
+.btn-style-pricing{
+    position: absolute;
+    bottom: 0;
+    padding:10px 32px;
+    line-height:28px;
+    background:#fefefe;
+    font-size:16px;
+    font-weight:400;
+    border:1px solid #dddddd;
+    color:#3b566e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    border-radius:6px;
+}
+
+.btn-style-pricing .icon{
+    position:middle;
+    font-size:14px;
+    vertical-align:middle;
+    padding-left:10px;
+}
+
+.btn-style-pricing:hover{
+    background:#e8ebef;
+}
+.pricing-style-one{
+    position:relative;
+    padding:0px;
+    margin:0px;
+}
+
+.pricing-style-one .inner-box{
+    position:relative;
+    display:block;
+    padding:45px 32px 60px;
+    border-right:1px solid #deeefc;
+    background:url(../images/background/bg-shape-one.png) left top no-repeat;
+}
+
+.services-outer .pricing-style-one:last-child .inner-box{
+    border-right:none;
+}
+
+.pricing-style-one .inner-box .icon{
+    position:relative;
+    margin-bottom:30px;
+}
+
+.pricing-style-one .inner-box h3{
+    color:#3b566e;
+    font-size: 60px;
+    font-weight:500;
+    margin-bottom:15px;
+}
+
+.pricing-style-one .inner-box h3 a{
+    color:#3b566e;
+}
+
+.pricing-style-one .inner-box h3 a:hover{
+    color:#ff4200;
+    text-decoration:underline;
+}
+
+.pricing-style-one .inner-box .text{
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:40px;
+}
+
+.pricing-style-one .inner-box .link-box{
+    position:relative;
+    text-align:middle;
+}
+
+.pricing-style-one .inner-box .link-box a{
+    color:#404040;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.pricing-style-one .inner-box .link-box a .icon{
+    position:relative;
+    vertical-align: middle;
+    padding-left:10px;
+}
+
+.pricing-style-one .inner-box .link-box a:hover{
+    color:#ff4200;
+}
+
+.pricing-style-one ..inner-box h4{
+    color:#3b566e;
+    font-size: 60px;
+    font-weight:500;
+    margin-bottom:15px;
+}

@@ -37,6 +37,8 @@
 34. Comment Form
 35. Styled Pagination
 36. Responsive.css
+37. Pricing page
+38. Features page
 
 **********************************************/
 
@@ -2671,6 +2673,7 @@ img{
     background:#f2f5f8;
     padding:130px 0px 50px;
 }
+
 
 .key-features-section .auto-container{
     max-width:1000px;

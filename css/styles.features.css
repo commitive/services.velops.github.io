@@ -1,0 +1,142 @@
+/* --------------------- Fonts Pages -----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900');
+
+/*
+font-family: 'Heebo', sans-serif;
+*/
+
+@import url('font-awesome.css');
+@import url('themify-icons.css');
+@import url('linear-icons.css');
+@import url('animate.css');
+@import url('owl.css');
+@import url('jquery.fancybox.css');
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+/* --------------------- FEATURES Pages -----------------*/
+
+.features-box-thumbnail{
+    margin-top: 2em;
+}
+
+.features-title-box {
+    background-color: #7100bb;
+    color: #fff;
+    padding: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features-container{
+/*    padding: 2em;
+    box-shadow: 1px 1px 4px #000;*/
+}
+
+.features-box-right {
+    text-align: right;
+}
+
+.features-box-left{
+    text-align: left;
+}
+
+.features-box-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.features-box-left>p, .features-box-right>p {
+    /*font-size: 0.8em;*/
+    margin-top: 0.5em;
+}
+
+.col-sm-6.features-box-right>p, .col-sm-6.features-box-left>p {
+    text-align: justify;
+}
+
+.cla-header {
+    margin-bottom: 60px;
+}
+.cla-header, .cla-header p {
+    font-size: 18px;
+}
+.cla-features {
+    margin-bottom: 60px;
+}
+
+hr.section-divider {
+    margin-top: 52px;
+    margin-bottom: 42px;
+}
+
+hr.section-divider:before {
+    --x-height-multiplier: 0.342;
+    --baseline-multiplier: 0.22;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: .6em;
+}
+
+.cla-title-row {
+    background-color: #bf4528;
+    color: #fff;
+    padding: 30px 0px;
+    letter-spacing: 5px;
+}
+
+.cla-title-row h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    font-family: Consolas, "Menlo", "Liberation Mono", "DejaVu Sans Mono", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace !important;
+    padding: 10px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.cla-row-odd {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cla-row-even {
+    background: #f8f3f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cla-features code {
+    visibility: visible;
+    background: transparent;
+    color: #cc3050;
+}
+.cla-home-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}

@@ -4329,9 +4329,15 @@ img{
     color:#ff4200;
 }
 
-.pricing-style-one ..inner-box h4{
+.pricing-style-one .inner-box h4{
     color:#3b566e;
-    font-size: 60px;
+    font-size: 30px;
     font-weight:500;
+    margin-bottom:1px;
+}
+.pricing-style-one .inner-box h5{
+    color:#3b566e;
+    font-size: 20px;
+    font-weight:50;
     margin-bottom:15px;
 }

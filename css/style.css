@@ -4397,13 +4397,6 @@ img{
     margin-bottom: 150px;
 }
 
-.checklist-section {
-    position:relative;
-    padding:25px;
-    text-align: center;
-    margin-bottom: 150px;
-}
-
 .signup-section:before{
     content:'';
     position:absolute;
@@ -4438,4 +4431,27 @@ img{
 
 .signup-section .form-column{
     position:relative;
+}
+
+.checklist-section {
+    position:relative;
+    padding:25px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.checklist-section table th {
+    position: relative;
+    color: #3b566e;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.checklist-section table td {
+    position: relative;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #ff4200;
 }

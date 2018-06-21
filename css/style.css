@@ -132,6 +132,11 @@ p{
     margin:0 auto;
 }
 
+.auto-container figure {
+    text-align: center;
+    margin-top: 18px;
+}
+
 .medium-container{
     max-width:850px;
 }
@@ -191,7 +196,8 @@ ul,li{
     position:relative;
     padding:12px 45px;
     line-height:26px;
-    background:#404040;
+    /*background:#404040;*/
+    background:#ff4200;
     font-size:16px;
     font-weight:400;
     color:#ffffff;
@@ -203,7 +209,8 @@ ul,li{
 
 .btn-style-one:hover{
     color:#ffffff;
-    background:#bf4528;
+    /*background:#bf4528;*/
+    background:#404040;
 }
 
 .btn-style-two{
@@ -625,6 +632,7 @@ img{
 .main-menu .navigation{
     position:relative;
     font-family: 'Heebo', sans-serif;
+    padding: 0px 110px;
 }
 
 .main-menu .navigation > li{
@@ -871,7 +879,7 @@ img{
 /*Banner One*/
 .banner-one{
     position:relative;
-    padding:250px 0px 100px;
+    padding:150px 0px 150px;
     background-position:left top;
     background-repeat:no-repeat;
     background-size:cover;
@@ -884,7 +892,7 @@ img{
 
 .banner-one .text-column .inner{
     position:relative;
-    padding-top:100px;
+    padding-top:50px;
 }
 
 .banner-one .text-column h4{
@@ -902,7 +910,7 @@ img{
 }
 
 .banner-one .text-column p{
-    font-size:18px;
+    font-size:15px;
     margin-bottom:50px;
 }
 
@@ -1203,7 +1211,7 @@ img{
 
 .products-section{
     position:relative;
-    padding:130px 0px;
+    padding:0px;
 }
 
 .products-section .services-outer{
@@ -1288,8 +1296,8 @@ img{
 
 .features-section{
     position:relative;
-    background:#f4f9fe;
-    padding:130px 0px 150px;
+    /*background:#f4f9fe;*/
+    padding:10px;
 }
 
 .features-section.alternate{
@@ -4340,4 +4348,94 @@ img{
     font-size: 20px;
     font-weight:50;
     margin-bottom:15px;
+}
+
+.btn-social {
+    border-radius: 4px;
+    display: flex;
+    padding: 17px;
+    border:1px solid;
+    margin: 10px;
+}
+
+.btn-social a {
+    color: #fff;
+}
+
+.btn-social .provider-text {
+    margin-left: 10px;
+}
+
+.btn-google {
+    border-color: #4285F4;
+    background-color: #4285F4;
+}
+
+.btn-github {
+    border-color: #24292E;
+    background-color: #24292E;
+}
+
+.github-icon {
+    filter: invert(100%);
+}
+
+.btn-email {
+    border-color: #ff4200;
+    background-color: #fff;
+}
+
+.btn-email .provider-text {
+    color: #ff4200;
+}
+
+.signup-section {
+    position:relative;
+    background:#ffffff;
+    padding:25px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.checklist-section {
+    position:relative;
+    padding:25px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.signup-section:before{
+    content:'';
+    position:absolute;
+    left:0px;
+    margin-left:-40px;
+    top:0px;
+    width:50%;
+    height:100%;
+    background:url(../images/background/bg-shape-five.png) right center no-repeat;
+
+}
+
+.signup-section .sec-title{
+    margin-bottom:40px;
+}
+
+.signup-section .image-column{
+    position:relative;
+}
+
+.signup-section .image-column .inner{
+    position:relative;
+    margin-top:170px;
+}
+
+.signup-section .image-column .inner img{
+    max-width:none;
+    position:absolute;
+    right:40px;
+    top:0px;
+}
+
+.signup-section .form-column{
+    position:relative;
 }

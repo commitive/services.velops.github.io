@@ -1212,11 +1212,12 @@ img{
 .products-section{
     position:relative;
     padding:0px;
+    margin-bottom: 400px;
+    top: 120px;
 }
 
 .products-section .services-outer{
     position:relative;
-    border:1px solid #deeefc;
     border-radius:3px;
 }
 
@@ -4268,13 +4269,18 @@ img{
     padding-left:10px;
 }
 
-.btn-style-pricing:hover{
+.btn-style-pricing:hover {
     background:#e8ebef;
 }
-.pricing-style-one{
+.pricing-style-one {
     position:relative;
     padding:0px;
     margin:0px;
+}
+
+.pricing-style-one a {
+    cursor: pointer;
+    color: #fff;
 }
 
 .pricing-style-one .inner-box{
@@ -4493,4 +4499,135 @@ img{
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+
+/** Pricing **/
+
+
+#price {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+}
+
+.plan-inner {
+    padding:5px;
+}
+
+.entry-title {
+  background: rgba(186,255,201,0.7);
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #51718c;
+  margin-bottom: 30px;
+}
+
+.entry-title>h3 {
+  background: #baffc9;
+  font-size: 20px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.entry-title .price {
+  position: absolute;
+  bottom: -50px;
+  background: #baffc9;
+  height: 105px;
+  width: 105px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.price span {
+  position: absolute;
+  font-size: 9px;
+  bottom: -10px;
+  left: 18px;
+  font-weight: 400;
+}
+
+.entry-content {
+  color: #323232;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+
+.btn {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.btn a {
+  background: #323232;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none
+}
+.hot {
+    position: absolute;
+    top: -7px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 10px;
+    font-weight: 700;
+}
+.basic .entry-title {
+  background: rgb(255,223,186,0.7);
+}
+
+.basic .entry-title > h3 {
+  background: #ffdfba;
+}
+
+.basic .price {
+  background: #ffdfba;
+}
+
+.standard .entry-title {
+  background: rgba(186,225,255,0.7);
+}
+
+.standard .entry-title > h3 {
+  background: #bae1ff;
+}
+
+.standard .price {
+  background: #bae1ff;
 }

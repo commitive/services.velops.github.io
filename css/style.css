@@ -215,6 +215,7 @@ ul,li{
     text-align:center;
     font-family: 'Heebo', sans-serif;
     border-radius:4px;
+    cursor: pointer;
 }
 
 .btn-style-one:hover{
@@ -1222,11 +1223,12 @@ img{
 .products-section{
     position:relative;
     padding:0px;
+    margin-bottom: 400px;
+    top: 120px;
 }
 
 .products-section .services-outer{
     position:relative;
-    border:1px solid #deeefc;
     border-radius:3px;
 }
 
@@ -4278,13 +4280,18 @@ img{
     padding-left:10px;
 }
 
-.btn-style-pricing:hover{
+.btn-style-pricing:hover {
     background:#e8ebef;
 }
-.pricing-style-one{
+.pricing-style-one {
     position:relative;
     padding:0px;
     margin:0px;
+}
+
+.pricing-style-one a {
+    cursor: pointer;
+    color: #fff;
 }
 
 .pricing-style-one .inner-box{
@@ -4507,6 +4514,10 @@ img{
 
 
 /** Pricing **/
+
+.generic_price_table .generic_content{
+    background-color: #fff;
+}
 
 .generic_price_table .generic_content{
     background-color: #fff;

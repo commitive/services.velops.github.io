@@ -1231,7 +1231,7 @@ img{
     display:block;
     padding:45px 32px 60px;
     border-right:1px solid #deeefc;
-    background:url(../images/background/bg-shape-one.png) left top no-repeat;
+    background: transparent;
 }
 
 .services-outer .service-style-one:last-child .inner-box{
@@ -4350,12 +4350,37 @@ img{
     margin-bottom:15px;
 }
 
+
+.code {
+    background:url(../images/background/bg-shape-one.png) left no-repeat;
+}
+
+.track {
+    background:url(../images/background/bg-shape-one.png) right no-repeat;
+}
+
+.deploy {
+    background:url(../images/background/bg-shape-one.png) left no-repeat;
+}
+
+.checklist-section {
+    background:url(../images/background/bg-shape-one.png) right no-repeat;
+
+}
+
 .btn-social {
     border-radius: 4px;
     display: flex;
     padding: 17px;
     border:1px solid;
     margin: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .3s opacity,.3s color;
+}
+
+.btn-social:hover {
+    opacity: 1;
 }
 
 .btn-social a {
@@ -4394,7 +4419,8 @@ img{
     background:#ffffff;
     padding:25px;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
+    background: #f7fbfe;
 }
 
 .signup-section:before{
@@ -4443,7 +4469,7 @@ img{
 .checklist-section table th {
     position: relative;
     color: #3b566e;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.6em;
     font-weight: 300;
     padding-top: 15px;
@@ -4454,4 +4480,17 @@ img{
     font-size: 20px;
     line-height: 1.6em;
     color: #ff4200;
+    padding-top: 15px;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
 }

@@ -37,11 +37,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-.features-container{
-/*    padding: 2em;
-    box-shadow: 1px 1px 4px #000;*/
-}
-
 .features-box-right {
     text-align: right;
 }
@@ -160,4 +155,44 @@ h3 {
 .cla-features .inner-box.last {
     border-right: none;
     margin: 10px 0;
+}
+
+.code .track .deploy {
+    margin-bottom: 25px;
+}
+
+/** TO TOP **/
+
+#return-to-top {
+    position: fixed;
+    bottom:130px;
+    right: 20px;
+    background: #ff4200;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 3;
+    text-align: center;
+}
+
+#return-to-top img {
+    filter: invert(100%);
+    display: block;
+    margin-top: 25%;
+    height: 25px;
+    margin-left: 25%;
 }

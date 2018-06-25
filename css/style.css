@@ -125,6 +125,16 @@ p{
     text-decoration:line-through;
 }
 
+::selection {
+    color: #fff;
+    background: #ff4200;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #ff4200;
+}
+
 .auto-container{
     position:static;
     max-width:1200px;
@@ -4493,4 +4503,304 @@ img{
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+
+/** Pricing **/
+
+.generic_price_table .generic_content{
+    background-color: #fff;
+}
+
+.generic_price_table .generic_content .generic_head_price{
+    background-color: #f6f6f6;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+    border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+    color: #525252;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    color: #414141;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    color: #414141;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    color: #414141;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    color: #414141;
+}
+
+.generic_price_table .generic_content .generic_feature_list ul li{
+    color: #a7a7a7;
+}
+
+.generic_price_table .generic_content .generic_feature_list ul li span{
+    color: #414141;
+}
+
+.generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
+.generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
+    border-color: #ff4200 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff4200;
+    color: #fff;
+}
+
+.generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
+.generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span{
+    color: #fff;
+}
+
+
+.generic_price_table .generic_content{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.generic_price_table .generic_content .generic_head_price {
+    margin: 0 0 20px 0;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content{
+    margin: 0 0 50px 0;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+    border-style: solid;
+    border-width: 90px 1411px 23px 399px;
+    position: absolute;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head{
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag{
+    padding: 0 0 20px;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price{
+    display: block;
+    position: relative;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+    position: relative;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    position: relative;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.generic_feature_list {
+    margin-bottom: 70px;
+}
+
+.generic_price_table .generic_content .generic_feature_list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.generic_price_table .generic_content .generic_feature_list ul li{
+    font-size: 18px;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+.generic_price_table .generic_content .generic_feature_list ul li:hover{
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+
+}
+.generic_price_table .generic_content .generic_feature_list ul li .fa{
+    padding: 0 10px;
+}
+.generic_price_table .generic_content .generic_price_btn{
+    margin: 20px 0 32px;
+}
+
+.generic_price_table .generic_content .generic_price_btn a{
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    display: inline-block;
+    font-size: 18px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.generic_price_table .generic_content,
+.generic_price_table .generic_content:hover,
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg,
+.generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg,
+.generic_price_table .generic_content .generic_head_price .generic_head_content .head h2,
+.generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head h2,
+.generic_price_table .generic_content .price,
+.generic_price_table .generic_content:hover .price,
+.generic_price_table .generic_content .generic_price_btn a,
+.generic_price_table .generic_content:hover .generic_price_btn a{
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+@media (max-width: 320px) {
+}
+
+@media (max-width: 767px) {
+    .generic_price_table .generic_content{
+        margin-bottom:75px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .generic_price_table .col-md-3{
+        float:left;
+        width:50%;
+    }
+
+    .generic_price_table .col-md-4{
+        float:left;
+        width:50%;
+    }
+
+    .generic_price_table .generic_content{
+        margin-bottom:75px;
+    }
+}
+
+.text-center h1,
+.text-center h1 a{
+    color: #7885CB;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.price-heading{
+    text-align: center;
+}
+.price-heading h1{
+    color: #666;
+    margin: 0;
+    padding: 0 0 50px 0;
+}
+
+/** CAREERS **/
+
+.careers-section {
+    position:relative;
+    padding:0px;
+    margin-bottom: 400px;
+    top: 200px;
+}
+
+.cla-careers .position {
+    margin: 0 0 5px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #344D62;
+}
+
+.cla-careers .service-style-one .inner-box .location {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    background: url('/images/icons/pin.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.cla-careers .service-style-one .inner-box .location span {
+    margin-left: 35px;
+}
+
+.cla-careers .inner-box {
+    position: relative;
+    margin: 0 1% 2%;
+    line-height: 95px;
+    padding-bottom: 20px;
+    border-left: 5px solid #ff4200;
+    color: #ff4200;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 4px 0 rgba(0,0,0,.15);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.15);
+}
+
+.cla-careers .inner-box:hover {
+    box-shadow: 0 7.5px 7.5px 0 rgba(0,0,0,.15)!important;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+    transition:all 0.2s ease;
+}
+
+.cla-careers .inner-box:hover .position{
+    color: #ff4200;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
 }

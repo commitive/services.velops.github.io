@@ -125,6 +125,16 @@ p{
     text-decoration:line-through;
 }
 
+::selection {
+    color: #fff;
+    background: #ff4200;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #ff4200;
+}
+
 .auto-container{
     position:static;
     max-width:1200px;
@@ -4803,4 +4813,3 @@ img{
     cursor: pointer;
 
 }
-

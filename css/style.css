@@ -1741,13 +1741,13 @@ img{
 .default-form input[type="email"],
 .default-form input[type="password"],
 .default-form select,
-.default-form textarea{
+.default-form textarea {
     display:block;
     width:100%;
     line-height:28px;
     height:50px;
     font-size:16px;
-    border:1px solid rgba(31,140,235,0.50);
+    border:1px solid #e4e4e4;
     padding:10px 25px;
     background:none;
     color:#404040;
@@ -1758,8 +1758,10 @@ img{
     -o-transition:all 500ms ease;
 }
 
-.default-form .form-group input::-webkit-input-placeholder{
+.default-form .form-group input::-webkit-input-placeholder,
+.default-form .form-group textarea::-webkit-input-placeholder{
     color:#404040;
+    opacity: 0.6;
 }
 
 .default-form select{
@@ -1778,6 +1780,12 @@ img{
 
 .default-form select option{
     text-indent:25px;
+}
+
+.default-form input:hover,
+.default-form select:hover,
+.default-form textarea:hover{
+    border-color:#ff4200;
 }
 
 .default-form input:focus,

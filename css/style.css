@@ -1015,8 +1015,6 @@ header h2 {
 /****** FEATURES PAGE ******/
 .more-features {
 	position: relative;
-    /*padding: 0px;*/
-    /*margin-bottom: 400px;*/
     top: 150px;
 }
 
@@ -1119,4 +1117,23 @@ header h2 {
     margin-top: 25%;
     height: 25px;
     margin-left: 30%;
+}
+
+
+
+/***  FEATURES SUBMENU ***/
+
+#sub-menu {
+	top: 78px;
+	background-color: #f8f8f8;
+	width: 100%;
+	position: fixed;
+	display: none;
+	padding-left: 45%;
+	width: 100%
+}
+
+#sub-menu.on {
+   	z-index:999;
+   	display: block;
 }

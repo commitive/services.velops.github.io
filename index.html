@@ -1,479 +1,529 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>The final DevOps platform | Code, track and deploy at the same software</title>
-        <!-- Stylesheets -->
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
-        <!-- Responsive -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-    </head>
+<html lang="en" id="page-top">
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The final DevOps platform | Code, track and deploy at the same software</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-        <div class="page-wrapper">
-
-            <!-- Preloader -->
-            <div class="preloader"></div>
-
-            <div data-include="include/header.html"></div>
-
-            <!--Main Banner / Banner One-->
-            <section class="main-banner banner-one" id="banner" style="background-image:url(images/background/banner-bg-1.png);">
-                <div class="auto-container">
-                    <div class="row clearfix">
-                        <!--Text Column-->
-                        <div class="text-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="inner">
-                                <h4>Velops Continuous Delivery platform</h4>
-                                <h2>Deliver {fast,correct} products by applying DevOps from the start</h2>
-                                <p>Collaborate on delivering great software products with a tool that can do it all, from
-                                kanban boards, Git repository hosting and CI/CD.</p>
-                                <a href="#" class="theme-btn btn-style-two">Sign Up <span class="icon ti-arrow-circle-right"></span></a>
-                            </div>
-                        </div>
-
-                        <!--Image Column-->
-                        <div class="image-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="inner">
-                                <figure class="image"><img src="images/clarive/home_isometry.png" alt=""></figure>
-                            </div>
-                        </div>
-
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation
+    ==========================================-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img width="100" src="img/logo.png" alt=""></a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#features" class="page-scroll">Features</a></li>
+                    <li><a href="#pricing" class="page-scroll">Pricing</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                    <div class="other-links"><a href="https://velops.io/app/signup" class="theme-btn btn-style-one">Try it free</a>
                     </div>
-                </div>
-            </section>
-
-            <section class="products-section" id="products">
-                <div class="auto-container">
-                    <!--Heading-->
-                    <div class="sec-title">
-                        <div class="icon"><figure class="image"><img width="400" src="images/clarive/moving_releases-1024x476.png" alt=""></figure></div>
-                        <h2>Plan, code, track and deploy software, <br>This is how.</h2>
-                        <div class="desc-text">Velops is an easy to use tool for DevOps. With the help of our <br>system you can present your products. It is all very easy!</div>
-                    </div>
-
-                    <!--Services-->
-                    <div class="services-outer clearfix">
-                        <!--Service Style One-->
-                        <div class="service-style-one col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon"><figure class="image"><img width="60" src="images/clarive/icon_plan_orange_2.png" alt=""></figure></div>
-                                <h3><a href="#">Plan</a></h3>
-                                <div class="text">Planifica tus ideas con tu equipo. Sometelo a cualquier tipo de metología: Lean Startup, Design Sprint, etc.</div>
-                                <div class="link-box"><a href="./features2">See more <span class="icon ti-arrow-circle-right"></span></a></div>
-                            </div>
-                        </div>
-
-                        <!--Service Style One-->
-                        <div class="service-style-one col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon"><figure class="image"><img width="60" src="images/clarive/icon__code_5.png" alt=""></figure></div>
-                                <h3><a href="#">Code</a></h3>
-                                <div class="text">Dedicate solo a desarrollar tus ideas. No gastes tiempo en la gestión de ramas y conflictos</div>
-                                <div class="link-box"><a href="./features2">See more <span class="icon ti-arrow-circle-right"></span></a></div>
-                            </div>
-                        </div>
-
-                        <!--Service Style One-->
-                        <div class="service-style-one col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon"><figure class="image"><img width="60" src="images/clarive/icon_track_orange_3.png" alt=""></figure></div>
-                                <h3><a href="#">Track</a></h3>
-                                <div class="text">Planifica y comprueba todo lo que pasa con tu producto. Total transparencia y trazabilidad</div>
-                                <div class="link-box"><a href="./features2">See more <span class="icon ti-arrow-circle-right"></span></a></div>
-                            </div>
-                        </div>
-                        <!--Service Style One-->
-                        <div class="service-style-one col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon"><figure class="image"><img width="60" src="images/clarive/icon_deploy_orange.png" alt=""></figure></div>
-                                <h3><a href="#">Deploy</a></h3>
-                                <div class="text">No te preocupes de tus contrucciones. Automatiza tu CI/CD y ve tus desarrollos directamente en producción</div>
-                                <div class="link-box"><a href="./features2">See more <span class="icon ti-arrow-circle-right"></span></a></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!--Features Section-->
-            <section class="features-section" id="features">
-                <div class="auto-container">
-                    <!--Heading-->
-                    <div class="sec-title centered">
-                        <div class="icon"><figure class="image"><img width="400" src="images/clarive/unique-point.png" alt=""></figure></div>
-                        <h2>Unique DevOps point</h2>
-                        <div class="desc-text">Velops is an easy to use tool for DevOps. <br>You can present your products.</div>
-                    </div>
-
-                    <div class="row clearfix">
-                        <!--code - Features Column-->
-                        <div class="features-column col-md-4 col-sm-12 col-xs-12">
-                            <!--code - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-6.png" alt=""></figure></div>
-                                    <h3><a href="./features2">Manage your code.</a></h3>
-                                    <div class="text">Use a Fast Git server, Auto-merge branch, Code Review, Private repositories and more...</div>
-                                </div>
-                            </div>
-                            <!--code - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-7.png" alt=""></figure></div>
-                                    <h3><a href="./features2">Build in seconds</a></h3>
-                                    <div class="text">Save your time into your software. Clarive include CI for you don't waste time in integrations and mistakes.</div>
-                                </div>
-                            </div>
-                            <!--code - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-8.png" alt=""></figure></div>
-                                    <h3><a href="./features2">Create your own rules</a></h3>
-                                    <div class="text">Add clarive.yml in your repository and create your rules in the language that you use.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--code - features - Carousel Column-->
-                        <div class="carousel-column col-md-8 col-sm-12 col-xs-12">
-                            <div class="inner">
-                                <ul class="image-carousel-one single-item-carousel owl-theme owl-carousel">
-                                    <li><a href="images/featured-image-1.png" data-fancybox="gallery-one" class="lightbox-image" title="Image Caption"><img src="images/featured-image-1.png" alt=""></a></li>
-                                    <li><a href="images/featured-image-1.png" data-fancybox="gallery-one" class="lightbox-image" title="Image Caption"><img src="images/featured-image-1.png" alt=""></a></li>
-                                    <li><a href="images/featured-image-1.png" data-fancybox="gallery-one" class="lightbox-image" title="Image Caption"><img src="images/featured-image-1.png" alt=""></a></li>
-                                </ul>
-                                <a href=./features2>See more in features sections</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--Features Section-->
-            <section class="features-section alternate">
-                <div class="auto-container">
-                    <!--Heading-->
-                    <div class="sec-title centered">
-                        <div class="icon"><figure class="image"><img src="images/icons/icon-9.png" alt=""></figure></div>
-                        <h2>Planning your sprints and track your goals</h2>
-                        <div class="desc-text">Track all data of your software creation into Clarive. <br>Total transparency and tracebility.</div>
-                    </div>
-
-                    <div class="row clearfix">
-                        <!--track - Features Column-->
-                        <div class="features-column col-md-4 col-sm-12 col-xs-12">
-                            <!--track - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-10.png" alt=""></figure></div>
-                                    <h3><a href="./features2">Kanban</a></h3>
-                                    <div class="text">Planning from your back log until your production. You'll know what is happen in your app, all time.</div>
-                                </div>
-                            </div>
-                            <!--track - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-11.png" alt=""></figure></div>
-                                    <h3><a href="./features2">What is an issue if not is a problem?</a></h3>
-                                    <div class="text">Use our Topics where you can give all categories that you're using in your workflow. All trazability and all information together.</div>
-                                </div>
-                            </div>
-                            <!--track - Feature Block-->
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <div class="icon"><figure class="image"><img src="images/icons/icon-12.png" alt=""></figure></div>
-                                    <h3><a href="./features2">Custom dashboards</a></h3>
-                                    <div class="text">Each company has differents KPI's, so Clarive let you customize your own Dashboards for you can get your most information by you.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--track - features - Carousel Column-->
-                        <div class="carousel-column col-md-8 col-sm-12 col-xs-12">
-                            <div class="inner">
-                                <ul class="image-carousel-one single-item-carousel owl-theme owl-carousel">
-                                    <li><a href="images/resource/featured-image-2.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-2.jpg" alt=""></a></li>
-                                    <li><a href="images/resource/featured-image-2.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-2.jpg" alt=""></a></li>
-                                    <li><a href="images/resource/featured-image-2.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-2.jpg" alt=""></a></li>
-                                </ul>
-                                <a href=./features2>See more in features sections</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--deploy - Features Column-->
-            <section class="inventory-section" id="inventory">
-                <div class="auto-container">
-                    <!--Heading-->
-                    <div class="sec-title centered">
-                        <div class="icon"><figure class="image"><img src="images/icons/icon-13.png" alt=""></figure></div>
-                        <h2><a href=./features2>Deploy your creation</a></h2>
-                        <div class="desc-text">Planning your releases.<br>Have a robust Continuous Deployment system.</div>
-                    </div>
-
-                    <div class="content-box">
-                        <div class="inventory-tabs">
-                            <ul class="tab-buttons clearfix">
-                                <li class="tab-btn active-btn" data-tab="#tab-one">Pipelines</li>
-                                <li class="tab-btn" data-tab="#tab-two">Releases</li>
-                                <li class="tab-btn" data-tab="#tab-three">Logs</li>
-                            </ul>
-                            <div class="tabs-content">
-                                <!--Tab / Active tab-->
-                                <div class="tab active-tab" id="tab-one">
-                                    <ul class="image-carousel-one single-item-carousel owl-theme owl-carousel">
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                    </ul>
-                                </div>
-
-                                <!--Tab-->
-                                <div class="tab" id="tab-two">
-                                    <ul class="image-carousel-one single-item-carousel owl-theme owl-carousel">
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                    </ul>
-                                </div>
-
-                                <!--Tab-->
-                                <div class="tab" id="tab-three">
-                                    <ul class="image-carousel-one single-item-carousel owl-theme owl-carousel">
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                        <li><a href="images/resource/featured-image-3.jpg" data-fancybox="gallery-two" class="lightbox-image" title="Image Caption"><img src="images/resource/featured-image-3.jpg" alt=""></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--Blog Section-->
-            <section class="blog-section">
-                <div class="auto-container">
-                    <!--Heading-->
-                    <div class="sec-title-two centered">
-                        <h2>Recent Blog</h2>
-                        <div class="desc-text">Solution is an easy to use tool for eCommerce. <br>You can present your products.</div>
-                    </div>
-
-                    <div class="row clearfix">
-
-                        <!--News Block-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <figure class="image-box"><a href="blog-single.html"><img src="images/resource/blog-image-1.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <div class="post-meta">26 March 2017 By Author</div>
-                                    <h3><a href="blog-single.html">Excepteur sint occaecat cupidatat</a></h3>
-                                    <div class="text">Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Block-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <figure class="image-box"><a href="blog-single.html"><img src="images/resource/blog-image-2.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <div class="post-meta">26 March 2017 By Author</div>
-                                    <h3><a href="blog-single.html">Excepteur sint occaecat cupidatat</a></h3>
-                                    <div class="text">Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Block-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <figure class="image-box"><a href="blog-single.html"><img src="images/resource/blog-image-3.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <div class="post-meta">26 March 2017 By Author</div>
-                                    <h3><a href="blog-single.html">Excepteur sint occaecat cupidatat</a></h3>
-                                    <div class="text">Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="text-center wow tada" data-wow-delay="0ms" data-wow-duration="1500ms"><a href="blog.html" class="theme-btn btn-style-seven">Go To Blog</a></div>
-
-                </div>
-            </section>
-
-
-            <!--Testimonials Section-->
-            <section class="testimonials-section">
-                <div class="auto-container">
-                    <div class="outer-container">
-                        <!--Testimonials-->
-                        <div class="testimonials-carousel-one single-item-carousel owl-theme owl-carousel">
-                            <!--Slide Item-->
-                            <div class="slide-item">
-                                <div class="row clearfix">
-                                    <!--Text Column-->
-                                    <div class="text-column col-md-7 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="text">“Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby.”</div>
-                                        </div>
-                                    </div>
-                                    <!--Info Column-->
-                                    <div class="info-column col-md-5 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="info">
-                                                <figure class="thumb img-circle"><img class="img-circle" src="images/resource/author-thumb-1.jpg" alt=""></figure>
-                                                <h4>Madison Warren</h4>
-                                                <div class="designation">Product Designer at UI_Expert</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Slide Item-->
-                            <div class="slide-item">
-                                <div class="row clearfix">
-                                    <!--Text Column-->
-                                    <div class="text-column col-md-7 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="text">“Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby.”</div>
-                                        </div>
-                                    </div>
-                                    <!--Info Column-->
-                                    <div class="info-column col-md-5 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="info">
-                                                <figure class="thumb img-circle"><img class="img-circle" src="images/resource/author-thumb-1.jpg" alt=""></figure>
-                                                <h4>Madison Warren</h4>
-                                                <div class="designation">Product Designer at UI_Expert</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Slide Item-->
-                            <div class="slide-item">
-                                <div class="row clearfix">
-                                    <!--Text Column-->
-                                    <div class="text-column col-md-7 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="text">“Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby.”</div>
-                                        </div>
-                                    </div>
-                                    <!--Info Column-->
-                                    <div class="info-column col-md-5 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <div class="info">
-                                                <figure class="thumb img-circle"><img class="img-circle" src="images/resource/author-thumb-1.jpg" alt=""></figure>
-                                                <h4>Madison Warren</h4>
-                                                <div class="designation">Product Designer at UI_Expert</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!--Contact Section-->
-            <section class="contact-section" id="contact">
-                <div class="auto-container">
-                    <div class="row clearfix">
-
-                        <!--Image Column-->
-                        <div class="image-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="inner">
-                                <figure class="image"><img src="images/resource/featured-image-4.png" alt=""></figure>
-                            </div>
-                        </div>
-
-                        <!--Form Column-->
-                        <div class="form-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="sec-title">
-                                <h2>Create a velops.io account quick and with commitments.</h2>
-                                <div class="desc-text">
-                                    Velops is intuitive and adapts to your team's flow.
-                                </div>
-                            </div>
-
-                            <!--Contact Form-->
-                            <div class="default-form contact-form">
-                                <form method="post" id="contact-form" action="sendemail.php">
-                                    <div class="form-group">
-                                        <input type="text" name="bname" value="" placeholder="Your Name" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <select name="stores">
-                                            <option>Pick the region closest to you</option>
-                                            <option>US West Coast</option>
-                                            <option>Asia/Pacific</option>
-                                            <option>Europe/Africa</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="text" name="phone" value="" placeholder="Phone Number" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="text" name="email" value="" placeholder="Email Address" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button type="submit" class="theme-btn btn-style-two">Sign up <span class="icon ti-arrow-circle-right"></span></button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div data-include="include/footer.html"></div>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!--End pagewrapper-->
+    </nav>
+    <!-- Header -->
+    <header id="header">
+        <div class="intro">
+            <div class="overlay">
+                <div class="container">
+                        <div class="col-xs-12 col-md-6">
+                            <h4>The ultimate SaaS All-in-one Continuous Delivery platform</h4>
+                            <h2>Deliver {fast, correct} your products</h2>
+                            <p>Collaborate on delivering great software products with a tool that can do it all, from kanban boards, Git repository hosting and CI/CD.</p>
+                            <a href="https://velops.io/app/signup" class="theme-btn btn-style-one">
+                                   Try it free
+                                </a>
+                        </div>
+                    <!--Image Column-->
+                        <div class="col-xs-12 col-md-6">
+                            <div class="video_preview">
+                                <img src="img/video_preview.png" alt="" width="250px">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+    <!-- Features Section -->
+    <div class="features-section" id="features">
+        <div class="container comparison-table">
+            <div class="row">
+                <div class="sec-title">
+                    <h2>What can <b>Velops</b> do</h2>
+                </div>
+                <table class="col-md-12 col-sm-6 col-xs-6">
+                    <thead>
+                        <td></td>
+                        <td><img src="img/logo.png" width="90px" /></td>
+                        <td><img src="img/jira_logo.png" width="50px" /></td>
+                        <td><img src="img/trello_logo.png" width="60px" /></td>
+                        <td><img src="img/jenkins_logo.png" width="80px" /></td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Orchestate Webhooks</th>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Can review code</th>
+                            <td>✔</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Create private repositories</th>
+                            <td>✔</td>
+                            <td></td>
+                            <td>✔</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Work with no git repositories</th>
+                            <td>✔</td>
+                            <td></td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <th>Create triggers</th>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Keep my assets tracked</th>
+                            <td>✔</td>
+                            <td></td>
+                            <td></td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <th>Price</th>
+                            <td>0 €</td>
+                            <td>9 €</td>
+                            <td>0 €</td>
+                            <td>0 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <section class="code-section clearfix module" id="code">
+            <div class="container">
+                <div class="row">
+                    <!--Heading CODE-->
+                    <div class="sec-title">
+                        <img width="90" src="img/code.svg" alt="" />
+                        <h2>Manage your own <span style="color:#ff4200"><b>code</b></span></h2>
+                    </div>
+                    <!--Service Style One-->
+                    <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                        <div class="inner-box" style="text-align: center;border: none">
+                            <div class="icon">
+                                <figure class="image"><img width="45" src="img/clarive/git_icon.png" alt=""></figure>
+                            </div>
+                            <h3>Private Git repositories</h3>
+                            <div class="text">Repositories in our SaaS are private by default, but can be shared</div>
+                        </div>
+                    </div>
+                    <!--Service Style Two-->
+                    <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none" title="huge, gigantic">
+                        <div class="inner-box" style="text-align: center;border: none">
+                            <div class="icon">
+                                <figure class="image"><img width="45" src="img/clarive/CI.png" alt=""></figure>
+                            </div>
+                            <h3>Continuous Integration</h3>
+                            <div class="text">Push to a branch and we will kick-off your CI build and test pipelines</div>
+                        </div>
+                    </div>
+                    <!--Service Style Three-->
+                    <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                        <div class="inner-box" style="text-align: center;border: none">
+                            <div class="icon">
+                                <figure class="image"><img width="45" src="img/clarive/merge_icon.png" alt=""></figure>
+                            </div>
+                            <h3>Auto-merging</h3>
+                            <div class="text">We merge branches in and out of releases, keeping history clean and tidy</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align:center;"><a href="features.html#code"><h4>Learn more 🡒</h4></a></div>
+            </div>
+    </div>
+    </section>
+    <section class="clearfix track-section module" id="track">
+        <div class="container">
+            <div class="row">
+                <!--Heading TRACK -->
+                <div class="sec-title">
+                    <img width="90" src="img/track.svg" alt="" />
+                    <h2>Keep <span style="color:#ff4200"><b>tracked</b></span> your issues </h2>
+                </div>
+                <!--Service Style One-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/kanban_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Kanban boards</h3>
+                        <div class="text">Kanban boards help you quickly visualize your issues and tasks in any arrangement</div>
+                    </div>
+                </div>
+                <!--Service Style Two-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/multi-project_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Multi-Project Releases</h3>
+                        <div class="text">Releases can group changes from more than one project to make easier manage complex releases</div>
+                    </div>
+                </div>
+                <!--Service Style Three-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/dashboard_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Custom Dashboards</h3>
+                        <div class="text">Create your own dashboards, and rearrange them with drag-and-drop.</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;"><a href="features.html#track"><h4>Learn more 🡒</h4></a></div>
+        </div>
+    </section>
+    <!--Heading DEPLOY-->
+    <section class="deploy-section clearfix deploy module">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title" style="padding-top: 100px;">
+                    <img width="90" src="img/deploy.svg" alt="" style="margin-bottom: 30px;" />
+                    <h2><span style="color:#ff4200"><b>Deploy</b></span> your creation </h2>
+                </div>
+                <!--Service Style One-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/docker_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Docker under the hood</h3>
+                        <div class="text">All CI/CD runs in a Docker service in our server or as part of your swarm.</div>
+                    </div>
+                </div>
+                <!--Service Style Two-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/schedule_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Schedule your deployments</h3>
+                        <div class="text">Create repeatable jobs or schedule on-demand deployments to run on a given date/time.</div>
+                    </div>
+                </div>
+                <!--Service Style Three-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12" style="border: none">
+                    <div class="inner-box" style="text-align: center;border: none">
+                        <div class="icon">
+                            <figure class="image"><img width="45" src="img/clarive/environment_icon.png" alt=""></figure>
+                        </div>
+                        <h3>Environment Management</h3>
+                        <div class="text">Setup environments, their variables and a workflow for progressing releases on demand.</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;"><a href="features.html#deploy"><h4>Learn more 🡒</h4></a></div>
+        </div>
+    </section>
+    </div>
+    <!-- Pricing Section -->
+    <div id="pricing" class="pricing-section module">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="sec-title" style="margin-bottom: 60px">
+                        <h2>Choose your plan and run your apps <span style="color:#ff4200"><b>today</b></span></h2>
+                    </div>
+                    <div class="generic_price_table col-xs-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <!--PRICE CONTENT START-->
+                                <div class="generic_content active clearfix">
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                            <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Startup</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                            <span class="currency">4</span>
+                                            <span class="sign">€</span>
+                                            <br>
+                                            <span class="month">user per month</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                    </div>
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Unlimited</span> projects</li>
+                                            <li><span>Unlimited</span> repositories</li>
+                                            <li>One concurrent job</li>
+                                            <li>Support next-day via email</li>
+                                            <li>1 GB app space</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    <!--BUTTON START-->
+                                    <div class="theme-btn btn-style-one">
+                                        <a href="https://velops.io/app/signup" style="color: #fff">Try now</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <!--PRICE CONTENT START-->
+                                <div class="generic_content clearfix">
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                            <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Growthing</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                      <span class="currency">20</span>
+                                            <span class="sign">€</span>
+                                            <br>
+                                            <span class="month">User per month</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                    </div>
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Unlimited</span> projects</li>
+                                            <li><span>Unlimited</span> repositories</li>
+                                            <li>Five concurrent job</li>
+                                            <li>Support 24x7 vía chat/email</li>
+                                            <li>50 GB app space</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    <!--BUTTON START-->
+                                    <div class="theme-btn btn-style-one">
+                                        <a href="https://velops.io/app/signup" style="color: #fff">Try now</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <!--PRICE CONTENT START-->
+                                <div class="generic_content clearfix">
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                            <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Enterprise</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                      <span class="currency">99</span>
+                                            <span class="sign">€</span>
+                                            <br>
+                                            <span class="month">User per month</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                    </div>
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Unlimited</span> projects</li>
+                                            <li><span>Unlimited</span> repositories</li>
+                                            <li><span>Unlimited</span> concurrent job</li>
+                                            <li>Support 24x7 vía chat/email</li>
+                                            <li>250 GB app space</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    <!--BUTTON START-->
+                                    <div class="theme-btn btn-style-one">
+                                        <a href="https://velops.io/app/signup" style="color: #fff">Try now</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                            </div>
+                        </div>
+                        <!--//BLOCK ROW END-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sign in now -->
+    <div class="signup-section module" id="signup">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="form-column col-md-12 col-sm-12 col-xs-12">
+                    <div class="sec-title">
+                        <h2>Create a new <span style="color:#ff4200"><b>free</b></span> account now</h2>
+                        <div class="desc-text" style="margin-top:10px">
+                            30 days of free trial with all premium features unlocked
+                        </div>
+                        <div class="desc-text" style="margin-top:10px">
+                            <b>No credit card required</b>
+                        </div>
+                    </div>
+                    <div class="form-column col-md-4 col-sm-6 col-xs-12">
+                        <div claSs="btn-social btn-google">
+                            <a href="#">
+                                           <img src="img/google.svg" height="25px" class="google-icon" />
+                                           <span class="provider-text">Sign up with Google</span>
+                                        </a>
+                        </div>
+                    </div>
+                    <div class="form-column col-md-4 col-sm-6 col-xs-12">
+                        <div claSs="btn-social btn-github">
+                            <a href="#">
+                                           <img src="img/github.svg" height="25px" class="github-icon" />
+                                           <span class="provider-text">Sign up with Github</span>
+                                        </a>
+                        </div>
+                    </div>
+                    <div class="form-column col-md-4 col-sm-6 col-xs-12">
+                        <div claSs="btn-social btn-email">
+                            <a href="https://velops.io/app/signup">
+                                           <img src="img/email.svg" height="25px" class="email-icon" />
+                                           <span class="provider-text">Sign up with your email</span>
+                                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="contact-section module" id="contact">
+        <div class="container" style="max-width: 600px;">
+            <div class="row clearfix">
+                <!--Form Column-->
+                <div class="form-column col-md-12 col-sm-12 col-xs-12">
+                    <div class="sec-title">
+                        <h2><span style="color:#ff4200"><b>Contact </b></span> us</h2>
+                        <div class="desc-text">
+                            We want to hear from you
+                        </div>
+                    </div>
+                    <!--Contact Form-->
+                    <div class="default-form contact-form">
+                        <form method="post" id="contact-form" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="bname" value="" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" value="" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" value="" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="country" value="" placeholder="Country">
+                            </div>
+                            <div class="form-group">
+                                <textarea type="textarea" name="comment" placeholder="Write your comment here"></textarea>
+                            </div>
+                            <div class="form-group" style="text-align:center;margin-top:50px">
+                                <button type="submit" class="theme-btn btn-style-one">Send</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-include="footer.html"></div>
 
-        <!--Scroll to top-->
-        <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scrolling.js"></script>
+</body>
 
-
-        <script src="js/jquery.js"></script>
-        <script src="js/velops.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/pagenav.js"></script>
-        <script src="js/jquery.scrollTo.js"></script>
-        <script src="js/jquery.fancybox.pack.js"></script>
-        <script src="js/owl.js"></script>
-        <script src="js/wow.js"></script>
-        <script src="js/validate.js"></script>
-        <script src="js/script.js"></script>
-
-        <script data-cfasync="false">window.civchat = {apiKey: "OA9C1I"};</script>
-        <script data-cfasync=“false” src="https://app.userengage.com/widget.js"></script>
-
-    </body>
 </html>
